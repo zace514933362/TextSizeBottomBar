@@ -80,6 +80,10 @@ internal class MenuItemView @JvmOverloads constructor(
         titleView.setTextColor(textColorSelector)
     }
 
+    fun setTextSize(size: Float){
+        titleView.textSize = size
+    }
+    
     fun select() {
         titleView.visibility = View.VISIBLE
         titleView.isSelected = true
