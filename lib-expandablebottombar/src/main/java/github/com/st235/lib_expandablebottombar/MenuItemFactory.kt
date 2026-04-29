@@ -48,6 +48,7 @@ internal open class MenuItemFactory(
 
             setIcon(menuItemDescriptor.iconId, backgroundColorStateList)
             setText(menuItemDescriptor.text, backgroundColorStateList)
+            setTextSize(30f)
             notificationBadgeBackgroundColor = menuItemDescriptor.badgeBackgroundColor ?: globalNotificationBadgeColor
             notificationBadgeTextColor = menuItemDescriptor.badgeTextColor ?: globalNotificationBadgeTextColor
 
